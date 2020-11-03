@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Home Appliances</title>
+    <!----------------- Links ----------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/icon.png">
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="login.css">
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+
+</head>
+
+<body oncontextmenu='return false' class='snippet-body'>
+    <div class="super_container">
+        <!----------------- Header ----------------->
+        <header class="header">
+            <!----------------- Top Bar ----------------->
+            <div class="top_bar navbar-blue">
+                <div class="wrapper"></div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col d-flex flex-row px-5">
+                            <div class="top_bar_contact_item">
+                                <div class="top_bar_icon"><i class="fas fa-mobile-alt"></i></div><a href="#">+92 0000
+                                    000 000</a>
+                            </div>
+                            <div class="top_bar_contact_item">
+                                <div class="top_bar_icon"><i class="far fa-envelope"></i></div><a
+                                    href="#">contact@electronistan.com</a>
+                            </div>
+                            <div class="top_bar_user ml-auto">
+                                <div class="user_icon"></div>
+                                <div class="iconn_text"><a href="login.html"><i class="fas fa-user-check pr-3"></i>Log
+                                        In</a>
+                                </div>
+                                <div class="iconn-text"><a href="signup.html"><i class="fas fa-user pr-3"></i>Sign
+                                        Up</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!----------------- Header Main ----------------->
+    <div class="header_main" style="background-color: #ffffff;">
+        <div class="container-fluid">
+            <div class="row">
+                <!----------------- Logo ----------------->
+                <div class="col-lg-2 col-sm-3 col-3 order-1">
+                    <div class="logo_container">
+                        <div class="logo"><img src="Images/logo.png" alt=""></div>
+                    </div>
+                </div>
+                <!----------------- Search Bar ----------------->
+                <div class="col-lg-7 col-12 order-lg-2 order-3 pl-5 pr10">
+                    <div class="header_search">
+                        <div class="header_search_content">
+                            <div class="header_search_form_container ml-auto">
+                                <form action="#" class="header_search_form clearfix"> <input type="search"
+                                        required="required" class="header_search_input" value="Search Here">
+                                    <div class="custom_dropdown" style="display: none;">
+                                        <div class="custom_dropdown_list"> <span
+                                                class="custom_dropdown_placeholder clc">All Categories</span><i
+                                                class="fas fa-caret-down"></i>
+                                            <ul class="custom_list clc">
+                                                <li><a class="clc" href="#">All Categories</a></li>
+                                                <li><a class="clc" href="#">Tv and LEDs</a></li>
+                                                <li><a class="clc" href="#">Refrigerators</a></li>
+                                                <li><a class="clc" href="#">Washing Machines</a></li>
+                                                <li><a class="clc" href="#">Samsung</a></li>
+                                                <li><a class="clc" href="#">Nokia</a></li>
+                                            </ul>
+                                        </div>
+                                    </div> <button type="submit" class="header_search_button trans_300"
+                                        value="Submit"><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------------- Wishlist ----------------->
+                <div class="col-lg-3 col-9 order-lg-3 order-2 text-lg-left text-right mt-5">
+                    <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end mt-5">
+                        <div class="wishlist d-flex flex-row align-items-center justify-content-end">
+                            <div class="wishlist_icon"><i class=""></i></div>
+                            <div class="wishlist_content">
+                                <div class="wishlist_text pr-5"><a href="#"></a></div>
+                                <div class="wishlist_count"></div>
+                            </div>
+                        </div>
+                        <!----------------- Cart ----------------->
+                        <div class="cart">
+                            <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+                                <div class="cart_icon"><i class="fas fa-shopping-cart pr-3"></i>
+                                    <div class="cart_count"><span></span></div>
+                                </div>
+                                <div class="cart_content">
+                                    <div class="cart_text pr-5"><a href="cart.html" class="add-to-cart">Cart <span id="cart-counter" style="color: #039ee6;">0</span></a></div>
+                                    <div class="cart_price"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------- Main Navigation ----------------->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="index.html" data-toggle="dropdown"> Home Electronics </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html"> TV & LED</a></li>
+                        <li><a class="dropdown-item" href="index.html"> Refrigerator </a></li>
+                        <li><a class="dropdown-item" href="index.html"> Washing Machines </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="digital.html" data-toggle="dropdown"> Digital Electronics </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="digital.html"> Laptops</a></li>
+                        <li><a class="dropdown-item" href="digital.html"> Mobiles </a></li>
+                        <li><a class="dropdown-item" href="digital.html"> Watches </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Home Appliances </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Iron</a></li>
+                        <li><a class="dropdown-item" href="#"> Microwave </a></li>
+                        <li><a class="dropdown-item" href="#"> AC </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div> <!-- navbar-collapse.// -->
+    </nav>
+    <!-- caoursel -->
+    
+
+
+
+    <!-- <!...................Products ..................>     -->
+    <h1 style="text-align: center; font-weight: bold;">Our Products</h1> <br><br><br>
+    <!-- <h2 style="text-align: center; font-weight: bold; color:#039ee6" id="home-electronics">Home Electronics</h2>
+    <div id="products"></div> -->
+    <h1 style=" text-align: center; font-weight: bold; color:#039ee6" >Digital Electronics</h1>
+    <div id="product"></div>
+
+    <!----------------- Banner ----------------->
+    <div class="container-fluid px-1 mx-auto row justify-content-center">
+        <div class="col-xl-10 col-lg-10 ">
+            <div class="card1 pl-4 pl-md-5 pr-3">
+                <div class="row">
+                    <div class="left-side col-md-6">
+                        <h1 class="mb-0"><i>New Collection 2020</i></h1>
+                        <br>
+                        <p><em>New collection of washing machines, refrigerators, dishwahers, ovens, tv and lcds, iron,
+                                mobiles, laptops, tablets and many other items.</em></p>
+                        <h4 class="mb-0"><em>Has just arrived!</em></h4>
+                        <br>
+                        <button class="btn btn-blue mb-5"><a href="#"><em class="banner-btn">Shop
+                                    Now!</em></a>
+                            &nbsp;&nbsp;<div class="fa fa-angle-right"></div></button>
+                    </div>
+                    <div class="right-side col-md-6 row justify-content-center">
+                        <div class="d-flex"> <img class="girl-img fit-image" src="Images/ban.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!----------------- Partners Slider ----------------->
+    <section class="my-5">
+        <div class="container my-5 pt-5">
+            <h1 class="text-center my-5">OUR PARTNERS</h1>
+        </div>
+        <div id="client-content" class="container-fluid my-5">
+            <div id="clients" class=" row">
+                <div class="clients-wrap my-5">
+                    <ul id="clients-list" class="clearfix">
+                        <li><img src="Images/partner-1.png" alt="Samsung"></li>
+                        <li><img src="Images/partner-2.png" alt="Nokia">
+                        </li>
+                        <li><img src="Images/partner-3.png" alt="Dawlance"></li>
+                        <li><img src="Images/partner-4.png" alt="Haier"></li>
+                        <li><img src="Images/partner-5.jpg" alt="Sony"></li>
+                        <li><img src="Images/partner-6.png" alt="Lenovo"></li>
+                        <li><img src="Images/partner-7.png" alt="HP"></li>
+                        <li><img src="Images/partner-8.png" alt="PEL"></li>
+                        <li><img src="Images/partner-9.png" alt="Panasonic">
+                        </li>
+                        <li><img src="Images/partner-10.png" alt="Apple"></li>
+                        <li><img src="Images/partner11.png" alt="DELL"></li>
+                        <li><img src="Images/partner12.png" alt="Oppo"></li>
+                        <li><img src="Images/partner-13.png" alt="Huawei"></li>
+                        <li><img src="Images/partner-14.png" alt="Westpoint"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------- Footer ----------------->
+    <!-- <footer class="section-footer border-top mt-5 pt-5 px-5" style="background-color:#030f27;">
+        <div class="container-fluid pt-5">
+            <section class="footer-top padding-y">
+                <div class="row">
+                    <aside class="col-lg-4 col-md-4" id="footer-log">
+                        <article class="mr-3"> <img src="Images/logo.png" class="logo-footer" style="width: 300px;">
+                        </article>
+                    </aside>
+                    <aside class="col-lg-2 col-sm-6 col-md-3">
+                        <h6 class="title">ABOUT</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"> <a href="#" data-abc="true">About us</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Contact Us</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Payment</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Shipping</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">FAQs</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Careers</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Our Services</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-lg-2 col-sm-6 col-md-3">
+                        <h6 class="title">POLICY</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"> <a href="#" data-abc="true">Return Policy</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Privacy</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Security</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">SiteMap</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Terms & Condition</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">Cancellation and Return</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-lg-2 col-sm-6 col-md-3">
+                        <h6 class="title">CONTACT</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"> <a href="#" data-abc="true">User Login</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">User Register</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">My Orders</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">+92 0000 000 000</a></li>
+                            <li class="py-2"> <a href="#" data-abc="true">contact@electronistan.com</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-lg-2 col-sm-6 col-md-3">
+                        <h6 class="title">SOCIAL</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"> <a class="btn btn-icon" title="Facebook" target="_blank" href="#"
+                                    data-abc="true"><i class="fab fa-facebook-f"></i></a>Facebook</li>
+                            <li class="py-2"><a class="btn btn-icon" title="Instagram" target="_blank" href="#"
+                                    data-abc="true"><i class="fab fa-instagram"></i></a>Instagram</li>
+                            <li class="py-2"><a class="btn btn-icon" title="Youtube" target="_blank" href="#"
+                                    data-abc="true"><i class="fab fa-youtube"></i></a>Youtube</li>
+                            <li class="py-2"><a class="btn btn-icon" title="Twitter" target="_blank" href="#"
+                                    data-abc="true"><i class="fab fa-twitter"></i></a>Twitter</li>
+                    </aside>
+            </section>
+            <section class="footer-copyright border-top">
+                <p class="text-center text-white">© 2020 Electronistan.com</p>
+            </section>
+        </div>
+    </footer> -->
+            <!-- footer start -->
+<footer>
+    <section class="footer">
+        <div class="footer-widgets">
+            <div class="quick-links">
+                <h3>About</h3>
+                <ul>
+                    <li>
+                        <a href="#">  About us</a> </li>
+                    <li>
+                        <a href="#">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#"> Shipping</a></li>
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Services</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <h3>Policy</h3>
+                <ul>
+                    <li>
+                        <a href="#"> Return Policy</a> </li>
+                    <li>
+                        <a href="#">Security</a>
+                    </li>
+                    <li>
+                        <a href="#">SiteMap</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms & Conditions</a></li>
+                    <li>
+                        <a href="#">Cancellation & Return</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>
+                        <a href="#"> User Login</a> </li>
+                    <li>
+                        <a href="#"> User Register</a>
+                    </li>
+                    <li>
+                        <a href="#">My Orders</a>
+                    </li>
+                    <li>
+                        <a href="#"> +92 0000 000 000</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <h3>Social</h3>
+                <ul>
+                    <li>
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f "></i>Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/923330033996.com" target="_blank"><i class="fab fa-whatsapp"></i>Whatsapp</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Electronistan &copy; Copyright 2020. All Rights Reserved.</p>
+        </div>
+    </section>
+</footer>
+    </output>
+
+    <!----------------- Script Tags ----------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/da1b0dca31.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js'></script>
+    <script type='text/javascript' src="script.js"></script>
+    <script src="signup.js"></script>
+</body>
+<script src="login.js"></script>
+<script src="homeElectronics.json"></script>
+<script src="home.json"></script>
+<script src="digital-electronics.json"></script>
+
+</html>

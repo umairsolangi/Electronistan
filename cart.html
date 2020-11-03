@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="digital.html">
+    <link rel="stylesheet" href="home.html">
+    <link rel="stylesheet" href="cart.html">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="index.html">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Add To Cart</title>
+</head>
+
+<body>
+
+<main>
+        <section class="addToCart">
+            <div class="addtoCart-wraper">
+                <h2 class="title" style="text-align: center;">Your Cart</h2>
+                <div class="checkout-validation">
+                    <i class="fas fa-exclamation-circle"></i> Cart total must be greater than Rs 300
+                </div>
+                <div class="addtocart-table">
+                    <table style="margin-left: 30px;">
+                        <caption>Order Details</caption>
+                        <thead>
+                            <tr>
+                                <th id="cart-counter">0</th>
+                                <th scope="col"></th>
+                                <th scope="col" colspan="2">Item Name</th>
+                                <th scope="col" colspan="2">Discepration</th>
+                                <th scope="col" colspan="2">Quantity</th>
+                                <th scope="col" colspan="2">Price</th>
+                                <th scope="col" colspan="2">Delete Items</th>
+                                <!-- <th></th> -->
+                            </tr>
+
+                        </thead>
+                        <tbody id="cartData">
+
+                        </tbody>
+                        <tbody class="displayCart">
+                           
+                           
+                         
+                    </table>
+                    <div class="subTotal">
+                        <h1 class="border-h1">Delivery Details</h1>
+                        <input type="text" name="userName" placeholder="User Name" />
+                        <h4>Sub Total:</h4>
+                        <span class="Total">Rs. 0</span>
+                        <h4>Delivery Charges:</h4>
+                        <span>Rs. 200</span>
+                        <h4 class="border-h4 ">Grand Total:</h4>
+                        <b><span class="grandTotal">Rs. 0</span></b>
+                        <button class="Order-placed">Proceed Checkout</button>
+                    </div>
+                </div>
+            </div>
+         
+
+        </section>
+    </main>
+  
+    <!-- footer start -->
+<footer>
+    <section class="footer">
+        <div class="footer-widgets">
+            <div class="quick-links">
+                <h3>About</h3>
+                <ul>
+                    <li>
+                        <a href="#">  About us</a> </li>
+                    <li>
+                        <a href="#">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#"> Shipping</a></li>
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Services</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <h3>Policy</h3>
+                <ul>
+                    <li>
+                        <a href="#"> Return Policy</a> </li>
+                    <li>
+                        <a href="#">Security</a>
+                    </li>
+                    <li>
+                        <a href="#">SiteMap</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms & Conditions</a></li>
+                    <li>
+                        <a href="#">Cancellation & Return</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>
+                        <a href="#"> User Login</a> </li>
+                    <li>
+                        <a href="#"> User Register</a>
+                    </li>
+                    <li>
+                        <a href="#">My Orders</a>
+                    </li>
+                    <li>
+                        <a href="#"> +92 0000 000 000</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <h3>Social</h3>
+                <ul>
+                    <li>
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f "></i>Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/923330033996.com" target="_blank"><i class="fab fa-whatsapp"></i>Whatsapp</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Electronistan &copy; Copyright 2020. All Rights Reserved.</p>
+        </div>
+    </section>
+</footer>
+    
+</body>
+<script src="script.js"></script>
+</html>

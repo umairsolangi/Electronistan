@@ -1,0 +1,112 @@
+
+   [
+    {
+      "id": 231,
+      "name": "Haier Wasing Machine",
+      "price": 16000,
+      "categoryId": 7,
+      "rate": 4.74,
+      "content": "Haier imported Washing Machine with 5 Year Warrenty",
+      "review": 188,
+      "imageUrl": "https://ae01.alicdn.com/kf/H8da8e33e03d349539e33c990e6bfcafb2.jpg?width=1000&height=1000&hash=2000",
+      "action":"Add to Cart",
+      "subCategory":"digital"
+    },
+    {
+      "id": 232,
+      "name": "Pel Washing Machine",
+      "price": 20000,
+      "categoryId": 8,
+      "rate": 4.38,
+      "content": "Haier imported Washing Machine with 5 Year Warrenty",
+      "review": 63,
+      "imageUrl": "https://www.euwarehouse.com/wp-content/uploads/zeblaze-neo-1-3inch-full-round-touch-screen-blood-pressure-heart-rate-monitor-female-physiological-check-countdown-stopwatch-siliconeleather-band-smart-watch_5e28119d07e35.gif",
+      "action":"Add to Cart",
+      "subCategory":"digital"
+    },
+    {
+      "id": 233,
+      "name": "King Washing Machine",
+      "price": 22000,
+      "categoryId": 9,
+      "rate": 0.21,
+      "content": "Haier imported Washing Machine with 5 Year Warrenty",
+      "review": 125,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0024/6802/0299/products/92b0408b-7314-4dff-8bc4-2b0858042888.gif?v=1559005487",
+      "action":"Add to Cart",
+      "subCategory":"digital"
+    },
+    {
+      "id": 226,
+      "price": "35000 PKR",
+      "categoryId": 1,
+      "rate": 2.44,
+      "content": "Samsung Branded 32 Inch LCD with 1 Year Warranty",
+      "review": 78,
+      "imageUrl": "Images/laptop1.png",
+      "action": "Add to Cart",
+      "subCategory":"digital"
+    },
+    {
+      "id": 227,
+      "name": "Sony LCD",
+      "price": "50000 PKR",
+      "categoryId": 2,
+      "rate": 2.18,
+      "content": "Sony Very Branded 50 Inch LCD with 5 Year Warrenty",
+      "review": 67,
+      "imageUrl": "Images/laptop2.png",
+      "action": "Add to Cart",
+      "subCategory":"digital"
+    },
+    {
+      "id": 228,
+      "name": "Nokia LCD",
+      "price": "40000 PKR",
+      "categoryId": 3,
+      "rate": 0.91,
+      "content": "Hair Imported 32 Inch LCD with 2 Year Warranty",
+      "review": 116,
+      "imageUrl": "Images/laptop3.png",
+      "action": "Add to Cart",
+      "subCategory":"digital"
+      
+    },
+    {
+      "id": 229,
+      "name": " Pel Refregrator",
+      "price": 60000,
+      "categoryId": 4,
+      "rate": 3.11,
+      "content": "Pel Refregrator Very Branded Quality with 10 Year Warrenty",
+      "review": 78,
+      "imageUrl": "Images/mob1.png",
+      "action":"Add to Cart",
+      "subCategory":"digital"
+    },
+    {
+      "id": 230,
+      "name": "Gar Refregrator",
+      "price": 70000,
+      "categoryId": 5,
+      "rate": 0.29,
+      "content": "Gar Refregrator Very Branded Quality with 10 Year Warrenty",
+      "review": 44,
+      "imageUrl": "Images/mob2.png",
+      "action":"Add to Cart",
+      "subCategory":"digital"
+    },
+    {
+      "id": 231,
+      "name": "Sony Refregrator",
+      "price": 80000,
+      "categoryId": 6,
+      "rate": 0.28,
+      "content": " Sony Refregrator Very Branded Quality with 10 Year Warrenty",
+      "review": 34,
+      "imageUrl": "Images/mobile3.png",
+      "action":"Add to Cart",
+      "subCategory":"digital"
+    }
+    
+  ]

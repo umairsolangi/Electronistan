@@ -1,0 +1,456 @@
+/* Font Link */
+
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap");
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #f6f6f6 !important;
+    background-image: none !important;
+} 
+
+.addtoCart-wraper h2 {
+    font-size: 35px;
+    transition: .5s;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.addtoCart-wraper h2::after {
+    content: '';
+    background: #07b1f4;
+    width: 18%;
+    height: 4px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 78px;
+    transform: translateX(-50%);
+    transform-origin: bottom center;
+    transition: 2s transform;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.checkout-validation{
+    background-color: #ffb89e;
+    color: #f46107;
+    border: 1px solid #f46107;
+    padding: 10px;
+    margin-top: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    display: none;
+}
+
+.addToCart{
+    padding-bottom: 35px;
+}
+
+.addtocart-table{
+    max-width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.addtocart-table h3 {
+    color: #222;
+    letter-spacing: -0.05rem;
+    text-shadow: 0 2px 1px rgba(#fff, 0.3);
+}
+
+
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 70%;
+    background: rgba(#fafafa, 0.9);
+    table-layout: fixed;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+table caption {
+    text-align: left;
+    font-size: 1.4rem;
+    margin: .5em 0 .75em;
+}
+
+#table-img {
+    height: 50px;
+}
+
+table .quantity{
+    padding: 15px;
+}
+
+input[type=number]:focus {
+    outline: none;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+table th,
+table td {
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-size: .8rem;
+}
+
+table th {
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+table th:nth-child(1) {
+    padding: 30px;
+}
+
+table th:nth-child(2) {
+    border: none;
+}
+table th:nth-child(3){
+    text-align: left;
+}
+ table td i{
+     color: #f46107;
+     cursor: pointer;
+ }
+
+table .displayCart .hide{
+    display: inline;
+}
+
+@media screen and (max-width: 786px) {
+    table {
+        width: 60%;
+        border: 0;
+    }
+    table th{
+        font-size: .5rem;
+    }
+    table caption {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    table tr {
+        margin-top: .625em;
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+    table td::before {
+        /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    table td:last-child {
+        border-bottom: 0;
+    }
+    input[type=number] {
+        margin: 0;
+        font-size: 15px;
+        text-align: right;
+    }
+}
+@media screen and (max-width: 448px){
+    .addtocart-table{
+        flex-direction: column;
+        align-items: center;
+    }
+    input[type=number]{
+        font-size: 13px;
+    }
+    table tr{
+        margin: 0;
+        margin-bottom: 3px;
+        border: 1px solid #ddd;
+        width: 100%;
+    }
+    table td{
+        padding: 6px 10px;
+    }
+    .checkout-validation{
+        font-size: 12px;
+        padding: 4px;
+    }
+}
+
+.subTotal input{
+    border: none;
+    padding: 8px 10px;
+    outline: none;
+} 
+.subTotal input:focus{
+    outline: none;
+}
+.subTotal .border-h1{
+    border-bottom: 1px solid #a5a0a0;
+    padding: 5px 0;
+}
+.subTotal .border-h4{
+    border-top: 1px solid #a5a0a0;
+    padding: 5px 0;
+    margin: 0;
+}
+.subTotal .Order-placed{
+    display: block;
+    padding: 8px 60px;
+    margin: 5px;
+    border: 1px solid #0583b4;
+    background-color:#07b1f4 !important;
+    color: #ffff;
+    outline: none;
+    border-radius: 60px;
+    transition: .5s;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.subTotal .Order-placed:focus{
+    outline: none;
+}
+.subTotal .Order-placed:hover{
+    background-color: #f46107;
+    color: #f8f6f6;
+}
+
+/* Footer section start*/
+
+.footer {
+    background-color: #030f27;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer-widgets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-widgets h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #07b1f4;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+    display: block;
+}
+
+.footer ul>li {
+    margin: 5px 0;
+    text-transform: capitalize;
+    color: #FF9900;
+    font-weight: 600;
+    padding: 2px 10px;
+    margin-right: 10px;
+}
+
+.footer ul>li>a>i {
+    margin-right: 10px;
+    background: #ffffff;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 100%;
+    color: #6d2c57;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #07b1f4;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffbd59;
+    margin: 1em 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.footer ul>li>a>i:hover {
+    transition: 0.5s;
+    transform: scale(1.4);
+    background-color: #ffbd59;
+    /* background-color: #FF6600; */
+}
+
+.newsletter input {
+    line-height: 36px;
+    padding: 0 1em;
+    height: 36px;
+    font-weight: bold;
+    outline: none;
+    float: left;
+    border: none;
+}
+
+.newsletter button {
+    background-color: #ffbd59;
+    border: none;
+    height: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    padding: 0 1em;
+    float: left;
+}
+
+.newsletter button:hover {
+    background-color: #ffbd59;
+    color: white;
+    cursor: pointer;
+}
+
+.product-details {
+    display: flex;
+    margin: 50px 0;
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.product-description {
+    flex: 1;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.product-description small {
+    background-color: #FF6600;
+    color: #ffffff;
+    padding: 3px 5px;
+}
+
+.product-description h2 {
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.product-description .prod-short-desc {
+    padding: 10px 0 !important;
+}
+
+.product-description .product-rating {
+    padding: 10px 0;
+    color: #990066;
+}
+
+.product-description .product-price {
+    padding: 10px 0;
+    font-size: 30px;
+    color: #FF6600;
+}
+
+.product-description .available {
+    padding: 10px 0;
+}
+
+.product-description .qty-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.qty-btn>p {
+    margin-right: 10px;
+}
+
+.qty-btn>input {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #FF6600;
+    padding: 10px;
+    outline: none;
+    margin: 0 10px;
+}
+
+.qty-btn .prod-cart-btn {
+    margin: 0 10px;
+    padding: 8px 10px;
+    border: none;
+    background-color: #FF6600;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.prod-cart-btn:hover {
+    background-color: #FF9900;
+}
+.social-links ul li a i {
+    color: #07b1f4;
+}
+
+/* Styling For Zoom Image */
+
+
+/* Footer section End */
+
+
+
+
+
+
+
+
+
+
+
+
